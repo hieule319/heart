@@ -430,3 +430,48 @@ canvas {
     transform: scale(1);
   }
 }
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .sp-container h2 {
+    font-size: 18px;
+    line-height: 60px;
+    height: 60px;
+    margin-top: -30px;
+  }
+
+  .sp-container h2.frame-3 {
+    font-size: 16px;
+  }
+
+  .sp-container h2.frame-4 {
+    font-size: 18px;
+  }
+
+  .sp-container h2.frame-5 span {
+    font-size: 20px;
+  }
+
+  .sp-globe {
+    width: 150px;
+    height: 145px;
+    margin: -72px 0 0 -75px;
+    transform: scale(3);
+  }
+
+  .sp-circle-link {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 16px;
+    margin-left: -35px;
+    bottom: 50px;
+  }
+
+  canvas {
+    width: 100vw !important;
+    height: 100vh !important;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+}
+
